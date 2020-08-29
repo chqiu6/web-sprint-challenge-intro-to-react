@@ -31,10 +31,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 1. Describe component state.
+Component state is 
+
 
 1. Describe props.
+Props is a way to pass information from one component to another.
+
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Side effects are things that affect something outside the scope of the function being executed. To sync effects we use the dependency array as the second
+argument. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
