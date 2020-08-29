@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CharacterList from "./components/CharacterList";
+import {NavLink,Pagination,PaginationItem,PaginationLink} from "reactstrap"
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -13,7 +14,12 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header"> React Wars Characters</h1>
+      <NavLink href= "https://swapi.dev/api/people/">Star Wars API</NavLink>
       <CharacterList />
+      {/* <PaginationItem>
+      <PaginationLink href = "#">1</PaginationLink>
+      </PaginationItem>
+      <PaginationLink href = "http://swapi.dev/api/people/?page=2">2</PaginationLink> */}
     </div>
   );
 }

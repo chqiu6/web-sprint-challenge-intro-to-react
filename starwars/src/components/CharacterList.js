@@ -11,6 +11,7 @@ export default function CharacterList() {
         //birth_year, eye_color, films, gender, hair_color, height, homeworld, mass, name, skin_color, created, edited, species, starships, url, vehicles
         .then(res => {
             console.log("Res data : ", res.data.results);
+            console.log("res data objects", res.data);
             setCharacters(res.data.results);
         })
         .catch(err =>{ 
